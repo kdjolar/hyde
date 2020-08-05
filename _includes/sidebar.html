@@ -26,7 +26,7 @@
         {% endif %}
       {% endfor %}
 
-      {% assign categories_list = site.categories %}
+      {% assign categories_list = site.categories.CATEGORY %}
       {% for node in categories_list %}
         <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl_pages }}{{ node.url }}">{{ node.title }}</a>
       {% endfor %}
