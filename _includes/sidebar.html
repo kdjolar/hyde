@@ -26,9 +26,9 @@
         {% endif %}
       {% endfor %}
 
-      {% assign categories_list = site.categories.CATEGORY %}
+      {% assign categories_list = site.categories %}
       {% for node in categories_list %}
-        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl_pages }}{{ node.url }}">{{ node.title }}</a>
+        {{ site.node }}
       {% endfor %}
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
