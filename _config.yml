@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Portfolio
+tagline:          'Longer les lignes et passer les frontières en Afrique'
+description:      'Longer les lignes et passer les frontières en Afrique'
 url:              http://hyde.getpoole.com
-baseurl:          https://plsergent.github.io/hyde/
-baseurl_pages:    https://plsergent.github.io/hyde
+baseurl:          https://kdjolar.github.io/portfolio/
+baseurl_pages:    https://kdjolar.github.io/portfolio
 
 author:
-  name:           'Mark Otto'
+  name:           'Kossigari DJOLAR'
   url:            https://twitter.com/mdo
 
 paginate:         5
